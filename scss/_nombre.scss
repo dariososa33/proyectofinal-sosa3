@@ -1,0 +1,18 @@
+@media (max-width:460px) {
+	body {
+		background-image: none;
+		background-color: $secundary;
+	}
+
+	.logo-colon {
+		display: none;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.atletico {
+		display: none;
+	}
+}

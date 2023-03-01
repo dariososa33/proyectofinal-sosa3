@@ -1,0 +1,10 @@
+@mixin fondo {
+    background-image: url(../img/plantelFondoDePantalla.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    @include fondo;
+}

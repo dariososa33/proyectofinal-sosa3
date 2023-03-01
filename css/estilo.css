@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+  background-image: url(../img/plantelFondoDePantalla.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*variable sección contacto*/
+svg:hover {
+  color: whitesmoke;
+  transition: 0.2s;
+}
+
+h1 {
+  color: gold;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 10px 10px 10px red;
+}
+
+p {
+  -webkit-text-stroke: 0.3px black;
+}
+
+li {
+  -webkit-text-stroke: 0.3px black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: tomato;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btn:hover {
+  background-color: black;
+  color: tomato;
+}
+
+.logo{
+  height: 120px;
+}
+/*# sourceMappingURL=estilo.css.map */
